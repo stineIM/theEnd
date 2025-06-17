@@ -15,7 +15,7 @@ function debugMessage() {
       <p class="footer debugged">
         PS: Kaka inneheld inga JavaScript – berre sukker. Nyt ho! 🍰<br><br>
         Alt godt,<br>
-        [Namnet ditt]
+        Stine
       </p>
     `;
     isDebugged = true;
