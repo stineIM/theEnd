@@ -24,6 +24,7 @@ body.light {
   padding: 2rem;
   border-radius: 10px;
   max-width: 700px;
+  width: 90%;
   text-align: left;
   box-shadow: 0 0 15px rgba(0,0,0,0.3);
   transition: background 0.5s;
@@ -36,12 +37,13 @@ body.light .container {
 h1 {
   color: #00e0ff;
   text-align: center;
+  font-size: 1.8rem;
 }
 
 button {
   background-color: #00e0ff;
   color: #121212;
-  padding: 0.7rem 1.5rem;
+  padding: 0.7rem 1.2rem;
   border: none;
   border-radius: 6px;
   font-size: 1rem;
@@ -79,5 +81,24 @@ button:hover {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .joke-box {
+    font-size: 1rem;
   }
 }
