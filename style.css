@@ -101,4 +101,7 @@ button:hover {
   .joke-box {
     font-size: 1rem;
   }
+  #fun-fact {
+    margin-bottom: 70px;
+  }
 }
